@@ -6,10 +6,7 @@ def file_pc(file_path,json_path):
         all_path = os.path.join(file_path,file_list[i])
         files = file_list[i].split('@')
         print(files)
-
-
-
-
+        
 
 if __name__ == '__main__':
     #617
